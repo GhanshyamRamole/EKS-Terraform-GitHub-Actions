@@ -10,7 +10,7 @@ terraform {
     bucket         = "Ghanshyam-Ramole-tf-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = ""your-dynamodb-lock-table""
+    dynamodb_table = "your-dynamodb-lock-table"
     encrypt        = true
   }
 }
